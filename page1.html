@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Full Page</title>
+<meta name="generator" content="WYSIWYG Web Builder 16 - http://www.wysiwygwebbuilder.com">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="font-awesome.min.css" rel="stylesheet">
+<link href="Untitled1.css" rel="stylesheet">
+<link href="page1.css" rel="stylesheet">
+<script src="jquery-1.12.4.min.js"></script>
+<script src="jquery-ui.min.js"></script>
+<script src="util.min.js"></script>
+<script src="scrollspy.min.js"></script>
+<script>
+$(document).ready(function()
+{
+   $("a[href*='#home']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#home').offset().top }, 600, 'easeOutExpo');
+   });
+   $("a[href*='#about']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#about').offset().top }, 600, 'easeOutExpo');
+   });
+   $("a[href*='#services']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#services').offset().top }, 600, 'easeOutExpo');
+   });
+   $("a[href*='#contact']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#contact').offset().top }, 600, 'easeOutExpo');
+   });
+});
+</script>
+</head>
+<body data-spy="scroll">
+<div id="header">
+<div id="wb_Heading1" style="display:inline-block;z-index:0;">
+<h1 id="Heading1">Company Name</h1>
+</div>
+<div id="wb_CssMenu1" style="display:inline-block;height:28px;z-index:1;">
+<ul id="CssMenu1" role="menubar" class="nav">
+<li class="nav-item firstmain"><a role="menuitem" class="nav-link" href="#home" target="_self">Home</a>
+</li>
+<li class="nav-item"><a role="menuitem" class="nav-link" href="#about" target="_self">About</a>
+</li>
+<li class="nav-item"><a role="menuitem" class="nav-link" href="#services" target="_self">Services</a>
+</li>
+<li class="nav-item"><a role="menuitem" class="nav-link" href="#contact" target="_self">Contact</a>
+</li>
+</ul>
+
+</div>
+</div>
+<div id="wb_home">
+<div id="home">
+<div id="wb_Card6" style="display:flex;text-align:center;z-index:2;">
+   <div id="Card6-card-body">
+      <div id="Card6-card-item0">Full Page</div>
+      <div id="Card6-card-item1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+   </div>
+</div>
+</div>
+</div>
+<div id="wb_about">
+<div id="about">
+<div id="wb_Heading5" style="display:inline-block;z-index:3;">
+<h1 id="Heading5">About</h1>
+</div>
+<div id="wb_Text1">
+<span style="color:#000000;">Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. Quisque volutpat condimentum velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</span>
+</div>
+</div>
+</div>
+<div id="wb_services">
+<div id="services">
+<div id="wb_Heading2" style="display:inline-block;z-index:5;">
+<h1 id="Heading2">Services</h1>
+</div>
+<div id="wb_BulletedList1" style="display:inline-block;z-index:6;">
+<div>
+   <div class="bullet" style="">&bull;</div>
+   <div class="item item0"><span style="color:#000000;font-family:Arial;font-size:15px;line-height:21px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. <br><br></span></div>
+</div>
+<div style="clear:both">
+   <div class="bullet" style="">&bull;</div>
+   <div class="item item1"><span style="color:#000000;font-family:Arial;font-size:15px;line-height:21px;">Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero.<br><br></span></div>
+</div>
+<div style="clear:both">
+   <div class="bullet" style="">&bull;</div>
+   <div class="item item2"><span style="color:#000000;font-family:Arial;font-size:15px;line-height:21px;">Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. Quisque volutpat condimentum velit. </span></div>
+</div>
+
+</div>
+</div>
+</div>
+<div id="wb_contact">
+<form name="contact" method="post" action="mailto:yourname@yourdomain.com" enctype="text/plain" id="contact">
+<div id="wb_Heading3" style="display:inline-block;z-index:7;">
+<h1 id="Heading3">Contact</h1>
+</div>
+<input type="text" id="Editbox1" style="display:block;height:36px;" name="Editbox1" value="" spellcheck="false" placeholder="Your Email...">
+<input type="submit" id="Button1" name="" value="Send" style="display:block;width:176px;height:35px;z-index:9;">
+</form>
+</div>
+<div id="footer">
+<div id="wb_Text3">
+<span style="color:#FFFFFF;">© Copyright 2020 https://www.wysiwygwebbuilder.com - All Rights Reserved</span>
+</div>
+</div>
+<div id="StickyLayer" style="position:fixed;text-align:left;left:auto;right:25px;top:auto;bottom:25px;width:50px;height:50px;z-index:18;">
+<div id="wb_up-arrow" style="position:absolute;left:9px;top:8px;width:24px;height:24px;text-align:center;z-index:11;">
+<a href="#home"><div id="up-arrow"><i class="fa fa-angle-up"></i></div></a></div>
+</div>
+</body>
+</html>
